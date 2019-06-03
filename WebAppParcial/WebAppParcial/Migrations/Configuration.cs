@@ -18,6 +18,25 @@ namespace WebAppParcial.Migrations
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
             //  to avoid creating duplicate seed data.
+            context.Piezass.AddOrUpdate(
+               r => r.Id,
+               new Models.Piezas { Codigo = 100, Nombre = "ruleman" },
+               new Models.Piezas { Codigo = 200, Nombre = "paragolpe" },
+               new Models.Piezas { Codigo = 300, Nombre = "llanta" }
+
+             );
+
+            context.Proveedoress.AddOrUpdate(
+              r => r.Id,
+              new Models.Proveedores { Nombre = "Pepito Motors" },
+              new Models.Proveedores { Nombre = "Juancito Motors" },
+              new Models.Proveedores { Nombre = "Pedrito Motors" }
+
+            );
+
+            
+
+
         }
     }
 }

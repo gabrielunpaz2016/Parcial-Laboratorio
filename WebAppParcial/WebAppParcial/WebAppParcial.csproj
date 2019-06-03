@@ -145,6 +145,22 @@
     <Compile Include="Migrations\201906032219583_Init-Parcial.Designer.cs">
       <DependentUpon>201906032219583_Init-Parcial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201906032256224_Agregado-Metadata.cs" />
+    <Compile Include="Migrations\201906032256224_Agregado-Metadata.Designer.cs">
+      <DependentUpon>201906032256224_Agregado-Metadata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906032317278_Agregado-Metadata2.cs" />
+    <Compile Include="Migrations\201906032317278_Agregado-Metadata2.Designer.cs">
+      <DependentUpon>201906032317278_Agregado-Metadata2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906032329062_Agregado-Metadata3.cs" />
+    <Compile Include="Migrations\201906032329062_Agregado-Metadata3.Designer.cs">
+      <DependentUpon>201906032329062_Agregado-Metadata3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906032342010_Agregado-Metadata4.cs" />
+    <Compile Include="Migrations\201906032342010_Agregado-Metadata4.Designer.cs">
+      <DependentUpon>201906032342010_Agregado-Metadata4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Piezas.cs" />
     <Compile Include="Models\Proveedores.cs" />
@@ -170,6 +186,18 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201906032219583_Init-Parcial.resx">
       <DependentUpon>201906032219583_Init-Parcial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906032256224_Agregado-Metadata.resx">
+      <DependentUpon>201906032256224_Agregado-Metadata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906032317278_Agregado-Metadata2.resx">
+      <DependentUpon>201906032317278_Agregado-Metadata2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906032329062_Agregado-Metadata3.resx">
+      <DependentUpon>201906032329062_Agregado-Metadata3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906032342010_Agregado-Metadata4.resx">
+      <DependentUpon>201906032342010_Agregado-Metadata4.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
